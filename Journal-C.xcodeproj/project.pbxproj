@@ -8,26 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		17C746CF22934E5B0078BE98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746CE22934E5B0078BE98 /* AppDelegate.m */; };
-		17C746D222934E5B0078BE98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746D122934E5B0078BE98 /* ViewController.m */; };
 		17C746D522934E5B0078BE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C746D322934E5B0078BE98 /* Main.storyboard */; };
 		17C746D822934E5B0078BE98 /* Journal_C.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17C746D622934E5B0078BE98 /* Journal_C.xcdatamodeld */; };
 		17C746DA22934E5C0078BE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C746D922934E5C0078BE98 /* Assets.xcassets */; };
 		17C746DD22934E5C0078BE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C746DB22934E5C0078BE98 /* LaunchScreen.storyboard */; };
 		17C746E022934E5C0078BE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746DF22934E5C0078BE98 /* main.m */; };
+		17C746E822934E8C0078BE98 /* HAJEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746E722934E8C0078BE98 /* HAJEntry.m */; };
+		17C746EC229351140078BE98 /* HAJEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746EB229351140078BE98 /* HAJEntryController.m */; };
+		17C746F0229358370078BE98 /* HAJEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746EF229358370078BE98 /* HAJEntryListTableViewController.m */; };
+		17C746F422935E350078BE98 /* HAJEntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C746F322935E350078BE98 /* HAJEntryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17C746CA22934E5B0078BE98 /* Journal-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C746CD22934E5B0078BE98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17C746CE22934E5B0078BE98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17C746D022934E5B0078BE98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		17C746D122934E5B0078BE98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17C746D422934E5B0078BE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17C746D722934E5B0078BE98 /* Journal_C.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Journal_C.xcdatamodel; sourceTree = "<group>"; };
 		17C746D922934E5C0078BE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17C746DC22934E5C0078BE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17C746DE22934E5C0078BE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17C746DF22934E5C0078BE98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C746E622934E8C0078BE98 /* HAJEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJEntry.h; sourceTree = "<group>"; };
+		17C746E722934E8C0078BE98 /* HAJEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJEntry.m; sourceTree = "<group>"; };
+		17C746EA229351140078BE98 /* HAJEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJEntryController.h; sourceTree = "<group>"; };
+		17C746EB229351140078BE98 /* HAJEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJEntryController.m; sourceTree = "<group>"; };
+		17C746EE229358370078BE98 /* HAJEntryListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJEntryListTableViewController.h; sourceTree = "<group>"; };
+		17C746EF229358370078BE98 /* HAJEntryListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJEntryListTableViewController.m; sourceTree = "<group>"; };
+		17C746F222935E350078BE98 /* HAJEntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJEntryDetailViewController.h; sourceTree = "<group>"; };
+		17C746F322935E350078BE98 /* HAJEntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJEntryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +71,10 @@
 			children = (
 				17C746CD22934E5B0078BE98 /* AppDelegate.h */,
 				17C746CE22934E5B0078BE98 /* AppDelegate.m */,
-				17C746D022934E5B0078BE98 /* ViewController.h */,
-				17C746D122934E5B0078BE98 /* ViewController.m */,
 				17C746D322934E5B0078BE98 /* Main.storyboard */,
+				17C746F1229358490078BE98 /* ViewControllers */,
+				17C746ED229351170078BE98 /* Model Controller */,
+				17C746E922934E900078BE98 /* Model */,
 				17C746D922934E5C0078BE98 /* Assets.xcassets */,
 				17C746DB22934E5C0078BE98 /* LaunchScreen.storyboard */,
 				17C746DE22934E5C0078BE98 /* Info.plist */,
@@ -72,6 +82,35 @@
 				17C746D622934E5B0078BE98 /* Journal_C.xcdatamodeld */,
 			);
 			path = "Journal-C";
+			sourceTree = "<group>";
+		};
+		17C746E922934E900078BE98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17C746E622934E8C0078BE98 /* HAJEntry.h */,
+				17C746E722934E8C0078BE98 /* HAJEntry.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17C746ED229351170078BE98 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17C746EA229351140078BE98 /* HAJEntryController.h */,
+				17C746EB229351140078BE98 /* HAJEntryController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		17C746F1229358490078BE98 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17C746EE229358370078BE98 /* HAJEntryListTableViewController.h */,
+				17C746EF229358370078BE98 /* HAJEntryListTableViewController.m */,
+				17C746F222935E350078BE98 /* HAJEntryDetailViewController.h */,
+				17C746F322935E350078BE98 /* HAJEntryDetailViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +139,7 @@
 		17C746C222934E5B0078BE98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HAJ;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = HaleyJones;
 				TargetAttributes = {
@@ -144,9 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17C746D222934E5B0078BE98 /* ViewController.m in Sources */,
+				17C746F0229358370078BE98 /* HAJEntryListTableViewController.m in Sources */,
 				17C746CF22934E5B0078BE98 /* AppDelegate.m in Sources */,
 				17C746E022934E5C0078BE98 /* main.m in Sources */,
+				17C746E822934E8C0078BE98 /* HAJEntry.m in Sources */,
+				17C746EC229351140078BE98 /* HAJEntryController.m in Sources */,
+				17C746F422935E350078BE98 /* HAJEntryDetailViewController.m in Sources */,
 				17C746D822934E5B0078BE98 /* Journal_C.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
